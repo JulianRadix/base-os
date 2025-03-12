@@ -6,9 +6,9 @@
   - [X] Install QEMU for system emulation
   - [X] Install a hex editor (e.g., HxD)
   - [X] Install a text editor or IDE (Visual Studio Code, Sublime Text, etc.)
-- [ ] Configure build environment
+- [X] Configure build environment
   - [X] Create a project directory structure
-  - [ ] Set up a build script or Makefile
+  - [X] Set up a build script or Makefile
   - [X] Configure version control (Git)
 
 ## 2. Bootloader Development
