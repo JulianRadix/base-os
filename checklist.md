@@ -12,11 +12,11 @@
   - [X] Configure version control (Git)
 
 ## 2. Bootloader Development
-- [ ] Create basic boot sector
-  - [ ] Write initial 16-bit real mode assembly code
-  - [ ] Ensure code fits within 512 bytes
-  - [ ] Add boot signature (0xAA55)
-  - [ ] Test basic bootloader with QEMU
+- [X] Create basic boot sector
+  - [X] Write initial 16-bit real mode assembly code
+  - [X] Ensure code fits within 512 bytes
+  - [X] Add boot signature (0xAA55)
+  - [X] Test basic bootloader with QEMU
 - [ ] Implement disk I/O routines
   - [ ] Add BIOS disk read functionality
   - [ ] Implement disk sector loading
