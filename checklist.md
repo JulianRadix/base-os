@@ -1,15 +1,15 @@
 # MS-DOS-like Operating System Development Checklist
 
 ## 1. Setup Development Environment
-- [ ] Install development tools
+- [X] Install development tools
   - [X] Install NASM (Netwide Assembler)
   - [X] Install QEMU for system emulation
-  - [ ] Install a hex editor (e.g., HxD)
+  - [X] Install a hex editor (e.g., HxD)
   - [X] Install a text editor or IDE (Visual Studio Code, Sublime Text, etc.)
 - [ ] Configure build environment
   - [X] Create a project directory structure
   - [ ] Set up a build script or Makefile
-  - [ ] Configure version control (Git)
+  - [X] Configure version control (Git)
 
 ## 2. Bootloader Development
 - [ ] Create basic boot sector
