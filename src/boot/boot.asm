@@ -88,7 +88,7 @@ disk_error:
 ; DATA SECTION
 ;=============================================================================
 boot_message db "Base OS Booting...", 0
-disk_error_message "Disk read error!", 0
+disk_error_message db "Disk read error!", 0
 
 times 510-($-$$) db 0
 dw 0xAA55
