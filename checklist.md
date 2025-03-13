@@ -17,10 +17,10 @@
   - [X] Ensure code fits within 512 bytes
   - [X] Add boot signature (0xAA55)
   - [X] Test basic bootloader with QEMU
-- [ ] Implement disk I/O routines
-  - [ ] Add BIOS disk read functionality
-  - [ ] Implement disk sector loading
-  - [ ] Create error handling for disk operations
+- [X] Implement disk I/O routines
+  - [X] Add BIOS disk read functionality
+  - [X] Implement disk sector loading
+  - [X] Create error handling for disk operations
 - [ ] Extend bootloader capabilities
   - [ ] Implement multi-stage bootloader
   - [ ] Load kernel from disk to memory

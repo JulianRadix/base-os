@@ -53,9 +53,42 @@ halt:
     jmp halt
 
 ;=============================================================================
+; DISK FUNCTIONS
+;=============================================================================
+disk_reset:
+    push ax
+    xor ax, ax
+    int 13h
+    jc disk_error
+    pop ax
+    ret
+
+disk_read:
+    push ax
+    push cs
+    push dx
+    push bx
+
+    mov ah, 02h
+    int 13h
+    jc disk_error
+
+    pop bx
+    pop dx
+    pop cx
+    pop ax
+    ret
+
+disk_error:
+    mov si, disk_error_message
+    call print_string
+    jmp halt
+
+;=============================================================================
 ; DATA SECTION
 ;=============================================================================
 boot_message db "Base OS Booting...", 0
+disk_error_message "Disk read error!", 0
 
 times 510-($-$$) db 0
 dw 0xAA55
